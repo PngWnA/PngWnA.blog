@@ -3,19 +3,24 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: PngWnA's blog
+subtitle: PngWnA's synapse
+description: A blog of PngWnA
 keywords:
-author: John Doe
-language: en
-timezone: ''
+  - blog
+  - Computer Science
+  - Mathematics
+  - Information Security
+  - Amateur Astronomy
+author: PngWnA
+language: kr
+timezone: Asia/Seoul
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://pngwna.github.io
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :category/:month/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -48,7 +53,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: 4
   wrap: true
   hljs: false
 
@@ -77,7 +82,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## Use post's date for updated date unless set in front-matter
-use_date_for_updated: false
+use_date_for_updated: true
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -95,7 +100,51 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: material-flow
 
+# Generator json content
+jsonContent:
+  meta: false
+  keywords: false
+  pages:
+    title: true
+    slug: false
+    date: false
+    updated: false
+    comments: false
+    path: false
+    link: false
+    permalink: true
+    excerpt: false
+    keywords: false
+    text: true
+    raw: false
+    content: false
+  posts:
+    title: true
+    slug: false
+    date: false
+    updated: false
+    comments: false
+    path: false
+    link: false
+    permalink: true
+    excerpt: false
+    keywords: false
+    text: true
+    raw: false
+    content: false
+    categories: false
+    tags: false
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: ''
+#deploy:
+# type: git
+# repo: https://github.com/PngWnA/PngWnA.github.io.git
+# branch: master
