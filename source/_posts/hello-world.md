@@ -3,7 +3,6 @@ title: Hello World
 date: 2019/05/07
 category:
   - Life
-  - Computer Science
 tags:
   - Life
 ---
