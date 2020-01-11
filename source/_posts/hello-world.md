@@ -1,38 +1,37 @@
 ---
 title: Hello World
+date: 2019/05/07
+category:
+  - Life
+tags:
+  - Life
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+블로그를 만들었습니다!
 
-### Create a new post
+되나?
 
-``` bash
-$ hexo new "My New Post"
+``` C
+#include <stdio.h>
+int main ()
+{
+	printf("hello world!");
+	return 0;
+}
 ```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
+되나?
+``` python
+printf("hello world!");
 ```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
+되나?
 ``` bash
-$ hexo generate
+echo "hello world!"
 ```
+되나?
+``` erlang
+-module(hello).
+-export([hello_world/0]).
 
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
+hello_world() -> io:fwrite("hello, world").
 ```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+된다!
