@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "[*] Generating hexo..."
+hexo generate
+echo "[*] Uploading..."
+hexo server -o
