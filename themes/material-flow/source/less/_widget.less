@@ -89,3 +89,33 @@
         }
     }
 }
+
+.m_widget ul.category-list>li>a {
+    padding: 0 20px;
+    line-height: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.m_widget ul.category-list>li>a:hover {
+    background: rgba(0,0,0,0.08);
+}
+
+.m_widget .category-list-child>.category-list-item {
+    background: rgba(51,51,51,0.2);
+    a:not(:empty) {
+	    padding: 0 20px;
+	    line-height: 36px;
+	    height: 36px;
+	    display: flex;
+	    justify-content: space-between;
+	    align-content: center;
+	    color: #4f4f4f;
+	}
+}
+
+.m_widget .category-list-child>.category-list-item>a:not(:empty):hover {
+    background: rgba(0,0,0,0.08);
+}

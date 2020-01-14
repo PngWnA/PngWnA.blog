@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: PngWnA's blog
+title: PngWnA.blog
 subtitle: PngWnA's synapse
 description: A blog of PngWnA
 keywords:
@@ -13,6 +13,8 @@ keywords:
   - Information Security
   - Amateur Astronomy
 author: PngWnA
+avatar: /images/avatar.jpg
+favicon: /images/favicon.ico
 language: kr
 timezone: Asia/Seoul
 
