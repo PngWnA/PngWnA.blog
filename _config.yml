@@ -29,6 +29,8 @@ pretty_urls:
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 sitemap:
   path: sitemap.xml
+  tag: false
+  category: false
 
 
 # Directory
