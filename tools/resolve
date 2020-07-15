@@ -1,0 +1,2 @@
+sudo npm install
+rm ../node_modules/hexo/lib/plugins/helper/list_categories.js && ln -sf ../../../../../patch/list_categories.js ../node_modules/hexo/lib/plugins/helper/list_categories.js
