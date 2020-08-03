@@ -151,6 +151,12 @@ feed:
   hub:
   content:
 
+math:
+  engine: 'mathjax'
+  mathjax:
+    src: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js
+    enable: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
