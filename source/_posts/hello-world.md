@@ -2,9 +2,11 @@
 title: Hello World
 date: 2019/05/07
 category:
+  - Etc
   - Life
 tags:
-  - Life
+  - Etc
+  - 시작
 ---
 
 블로그를 만들었습니다!
