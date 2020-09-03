@@ -2,7 +2,6 @@
 title: Hello World
 date: 2019/05/07
 category:
-  - Etc
   - Life
 tags:
   - Etc
@@ -23,7 +22,7 @@ int main ()
 ```
 되나?
 ``` python
-printf("hello world!");
+print("hello world!")
 ```
 되나?
 ``` bash
