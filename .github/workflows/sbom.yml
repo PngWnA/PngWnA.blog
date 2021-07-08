@@ -30,6 +30,9 @@ jobs:
       
       - name: Setting up cyclondx
         run: sudo npm install -g @cyclonedx/bom
+        
+      - name: building node_modules
+        run: npm install
       
       # Runs a single command using the runners shell
       - name: CycloneDX Node.js Generate SBOM
