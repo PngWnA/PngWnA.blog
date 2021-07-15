@@ -43,3 +43,22 @@ jobs:
           path: "./"
           # Output filename
           output: "./bom.xml"
+          
+      - name: Checking the output file
+        run: file ./bom.xml 
+        
+      - name: Preparing bom commit
+        run: git clone https://github.com/PngWnA/PngWnA.blog 
+        
+      - name: Add & Commit
+        uses: EndBug/add-and-commit@v7.2.1
+        with:
+          add: './bom.xml'
+          author_name: PngWnA
+          author_email: gnu@korea.ac.kr
+          branch: master
+          cwd: '.'
+          default_author: github_actor
+          message: 'SBoM auto-generation'
+          pull_strategy: '--no-rebase'
+          push: true
