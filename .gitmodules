@@ -1,0 +1,6 @@
+[submodule "themes/material-flow"]
+	path = themes/material-flow
+	url = https://github.com/PngWnA/material-flow.git
+[submodule "posts"]
+	path = posts
+	url = https://github.com/PngWnA/posts.git
