@@ -1,6 +1,6 @@
 # Site
-title: '논작실'
-subtitle: '論作室'
+title: '論作室'
+subtitle: '논작실'
 description: "PngWnA's blog"
 keywords:
   - Blog
@@ -9,6 +9,8 @@ keywords:
   - Mathematics
   - Amateur Astronomy
 author: PngWnA
+avatar: /images/blog/avatar.jpg
+favicon: /images/blog/favicon.ico
 language: kr
 timezone: 'Asia/Seoul'
 
@@ -32,7 +34,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: 
 
 new_post_name: :title.md
 default_layout: post
